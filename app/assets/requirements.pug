@@ -1,0 +1,10 @@
+extends /default.pug
+
+block vars
+  - var pageTitle = "Drafting Merit Badge - Requirements"
+
+block body
+  .ui.container
+    h1 Drafting Requirements
+    .requirements-container
+      include:markdown-it _requirements.md
